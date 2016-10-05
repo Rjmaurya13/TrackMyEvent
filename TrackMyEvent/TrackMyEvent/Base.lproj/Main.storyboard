@@ -609,8 +609,8 @@
                                             <action selector="onBackButtonClick:" destination="47K-cV-3Jr" eventType="touchUpInside" id="C4s-vO-5Ie"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tracking List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQW-YQ-A6I">
-                                        <rect key="frame" x="241" y="29" width="119" height="26"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tracking List Detail" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQW-YQ-A6I">
+                                        <rect key="frame" x="212" y="29" width="178" height="26"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -618,12 +618,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="PQW-YQ-A6I" firstAttribute="leading" secondItem="kwI-C0-frQ" secondAttribute="leading" constant="241" id="1Ot-Xg-yf0"/>
+                                    <constraint firstItem="PQW-YQ-A6I" firstAttribute="leading" secondItem="kwI-C0-frQ" secondAttribute="leading" constant="212" id="1Ot-Xg-yf0"/>
                                     <constraint firstItem="MiE-Rk-CqA" firstAttribute="leading" secondItem="kwI-C0-frQ" secondAttribute="leading" constant="10" id="86U-Vl-C8X"/>
                                     <constraint firstAttribute="height" constant="64" id="8bW-Sv-dhP"/>
                                     <constraint firstItem="PQW-YQ-A6I" firstAttribute="top" secondItem="kwI-C0-frQ" secondAttribute="top" constant="29" id="JGd-6W-gzh"/>
-                                    <constraint firstAttribute="trailing" secondItem="PQW-YQ-A6I" secondAttribute="trailing" constant="240" id="avs-ac-CpX"/>
-                                    <constraint firstItem="PQW-YQ-A6I" firstAttribute="leading" secondItem="MiE-Rk-CqA" secondAttribute="trailing" constant="185" id="joC-Pt-j5T"/>
+                                    <constraint firstAttribute="trailing" secondItem="PQW-YQ-A6I" secondAttribute="trailing" constant="210" id="avs-ac-CpX"/>
+                                    <constraint firstItem="PQW-YQ-A6I" firstAttribute="leading" secondItem="MiE-Rk-CqA" secondAttribute="trailing" constant="156" id="joC-Pt-j5T"/>
                                     <constraint firstItem="MiE-Rk-CqA" firstAttribute="top" secondItem="kwI-C0-frQ" secondAttribute="top" constant="27" id="nv5-j5-cbj"/>
                                 </constraints>
                             </view>
