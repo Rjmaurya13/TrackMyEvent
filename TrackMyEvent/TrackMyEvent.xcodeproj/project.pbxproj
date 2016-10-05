@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DFC6E631DA028A200D4EF30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6E621DA028A200D4EF30 /* main.m */; };
+		4DFC6E661DA028A200D4EF30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6E651DA028A200D4EF30 /* AppDelegate.m */; };
+		4DFC6E691DA028A200D4EF30 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6E681DA028A200D4EF30 /* HomeViewController.m */; };
+		4DFC6E6C1DA028A200D4EF30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6E6A1DA028A200D4EF30 /* Main.storyboard */; };
+		4DFC6E6F1DA028A200D4EF30 /* TrackMyEvent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6E6D1DA028A200D4EF30 /* TrackMyEvent.xcdatamodeld */; };
+		4DFC6E711DA028A200D4EF30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6E701DA028A200D4EF30 /* Assets.xcassets */; };
+		4DFC6E741DA028A200D4EF30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6E721DA028A200D4EF30 /* LaunchScreen.storyboard */; };
+		4DFC6E7D1DA0EFD800D4EF30 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6E7C1DA0EFD800D4EF30 /* ListViewController.m */; };
+		4DFC6E801DA0F05A00D4EF30 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6E7F1DA0F05A00D4EF30 /* Event.m */; };
+		4DFC6E821DA0F3BA00D4EF30 /* EventList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6E811DA0F3BA00D4EF30 /* EventList.plist */; };
+		4DFC6E851DA0F9AD00D4EF30 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6E841DA0F9AD00D4EF30 /* ListTableViewCell.m */; };
+		4DFC6EAD1DA15BC600D4EF30 /* Barbecue Fridays.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EA31DA15BC600D4EF30 /* Barbecue Fridays.png */; };
+		4DFC6EAE1DA15BC600D4EF30 /* Impressions & Expressions.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EA41DA15BC600D4EF30 /* Impressions & Expressions.png */; };
+		4DFC6EAF1DA15BC600D4EF30 /* Italian carnival.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EA51DA15BC600D4EF30 /* Italian carnival.png */; };
+		4DFC6EB01DA15BC600D4EF30 /* Metallica Concert.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EA61DA15BC600D4EF30 /* Metallica Concert.png */; };
+		4DFC6EB11DA15BC600D4EF30 /* Rock n Roll.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EA71DA15BC600D4EF30 /* Rock n Roll.png */; };
+		4DFC6EB21DA15BC600D4EF30 /* Saree Exhibition.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EA81DA15BC600D4EF30 /* Saree Exhibition.png */; };
+		4DFC6EB31DA15BC600D4EF30 /* Startups Meet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EA91DA15BC600D4EF30 /* Startups Meet.png */; };
+		4DFC6EB41DA15BC600D4EF30 /* Summer Noon Party.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EAA1DA15BC600D4EF30 /* Summer Noon Party.png */; };
+		4DFC6EB51DA15BC600D4EF30 /* Summer workshop.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EAB1DA15BC600D4EF30 /* Summer workshop.png */; };
+		4DFC6EB61DA15BC600D4EF30 /* Wine tasting event.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EAC1DA15BC600D4EF30 /* Wine tasting event.png */; };
+		4DFC6EB81DA1602C00D4EF30 /* Grid-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EB71DA1602C00D4EF30 /* Grid-50.png */; };
+		4DFC6EBA1DA165A300D4EF30 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC6EB91DA165A300D4EF30 /* list.png */; };
+		4DFC6EBD1DA16B5200D4EF30 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6EBC1DA16B5200D4EF30 /* DetailViewController.m */; };
+		4DFC6EC01DA182E500D4EF30 /* GridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6EBF1DA182E500D4EF30 /* GridCollectionViewCell.m */; };
+		4DFC6EC31DA1FA9900D4EF30 /* TrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6EC21DA1FA9900D4EF30 /* TrackingViewController.m */; };
+		4DFC6EFB1DA4CEC600D4EF30 /* EventData+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6EF81DA4CEC600D4EF30 /* EventData+CoreDataProperties.m */; };
+		4DFC6EFC1DA4CEC600D4EF30 /* EventData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC6EFA1DA4CEC600D4EF30 /* EventData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DFC6E5E1DA028A200D4EF30 /* TrackMyEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMyEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFC6E621DA028A200D4EF30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DFC6E641DA028A200D4EF30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DFC6E651DA028A200D4EF30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DFC6E671DA028A200D4EF30 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4DFC6E681DA028A200D4EF30 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4DFC6E6B1DA028A200D4EF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DFC6E6E1DA028A200D4EF30 /* TrackMyEvent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackMyEvent.xcdatamodel; sourceTree = "<group>"; };
+		4DFC6E701DA028A200D4EF30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DFC6E731DA028A200D4EF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DFC6E751DA028A200D4EF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFC6E7B1DA0EFD800D4EF30 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		4DFC6E7C1DA0EFD800D4EF30 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		4DFC6E7E1DA0F05A00D4EF30 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		4DFC6E7F1DA0F05A00D4EF30 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		4DFC6E811DA0F3BA00D4EF30 /* EventList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventList.plist; sourceTree = "<group>"; };
+		4DFC6E831DA0F9AD00D4EF30 /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		4DFC6E841DA0F9AD00D4EF30 /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		4DFC6EA31DA15BC600D4EF30 /* Barbecue Fridays.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Barbecue Fridays.png"; sourceTree = "<group>"; };
+		4DFC6EA41DA15BC600D4EF30 /* Impressions & Expressions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Impressions & Expressions.png"; sourceTree = "<group>"; };
+		4DFC6EA51DA15BC600D4EF30 /* Italian carnival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Italian carnival.png"; sourceTree = "<group>"; };
+		4DFC6EA61DA15BC600D4EF30 /* Metallica Concert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Metallica Concert.png"; sourceTree = "<group>"; };
+		4DFC6EA71DA15BC600D4EF30 /* Rock n Roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rock n Roll.png"; sourceTree = "<group>"; };
+		4DFC6EA81DA15BC600D4EF30 /* Saree Exhibition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saree Exhibition.png"; sourceTree = "<group>"; };
+		4DFC6EA91DA15BC600D4EF30 /* Startups Meet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Startups Meet.png"; sourceTree = "<group>"; };
+		4DFC6EAA1DA15BC600D4EF30 /* Summer Noon Party.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Summer Noon Party.png"; sourceTree = "<group>"; };
+		4DFC6EAB1DA15BC600D4EF30 /* Summer workshop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Summer workshop.png"; sourceTree = "<group>"; };
+		4DFC6EAC1DA15BC600D4EF30 /* Wine tasting event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wine tasting event.png"; sourceTree = "<group>"; };
+		4DFC6EB71DA1602C00D4EF30 /* Grid-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grid-50.png"; sourceTree = "<group>"; };
+		4DFC6EB91DA165A300D4EF30 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		4DFC6EBB1DA16B5200D4EF30 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4DFC6EBC1DA16B5200D4EF30 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4DFC6EBE1DA182E500D4EF30 /* GridCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewCell.h; sourceTree = "<group>"; };
+		4DFC6EBF1DA182E500D4EF30 /* GridCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewCell.m; sourceTree = "<group>"; };
+		4DFC6EC11DA1FA9900D4EF30 /* TrackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingViewController.h; sourceTree = "<group>"; };
+		4DFC6EC21DA1FA9900D4EF30 /* TrackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingViewController.m; sourceTree = "<group>"; };
+		4DFC6EF71DA4CEC600D4EF30 /* EventData+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EventData+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4DFC6EF81DA4CEC600D4EF30 /* EventData+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EventData+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4DFC6EF91DA4CEC600D4EF30 /* EventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventData.h; sourceTree = "<group>"; };
+		4DFC6EFA1DA4CEC600D4EF30 /* EventData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFC6E5B1DA028A200D4EF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DFC6E551DA028A200D4EF30 = {
+			isa = PBXGroup;
+			children = (
+				4DFC6E601DA028A200D4EF30 /* TrackMyEvent */,
+				4DFC6E5F1DA028A200D4EF30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DFC6E5F1DA028A200D4EF30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC6E5E1DA028A200D4EF30 /* TrackMyEvent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFC6E601DA028A200D4EF30 /* TrackMyEvent */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC6F021DA4CFDE00D4EF30 /* HelperClass */,
+				4DFC6F011DA4CFB100D4EF30 /* App Delegate */,
+				4DFC6F001DA4CF8C00D4EF30 /* ViewController */,
+				4DFC6E811DA0F3BA00D4EF30 /* EventList.plist */,
+				4DFC6E7E1DA0F05A00D4EF30 /* Event.h */,
+				4DFC6E7F1DA0F05A00D4EF30 /* Event.m */,
+				4DFC6EFF1DA4CF7000D4EF30 /* Core Data Model */,
+				4DFC6E6A1DA028A200D4EF30 /* Main.storyboard */,
+				4DFC6E701DA028A200D4EF30 /* Assets.xcassets */,
+				4DFC6E721DA028A200D4EF30 /* LaunchScreen.storyboard */,
+				4DFC6E751DA028A200D4EF30 /* Info.plist */,
+				4DFC6E6D1DA028A200D4EF30 /* TrackMyEvent.xcdatamodeld */,
+				4DFC6E611DA028A200D4EF30 /* Supporting Files */,
+			);
+			path = TrackMyEvent;
+			sourceTree = "<group>";
+		};
+		4DFC6E611DA028A200D4EF30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC6EA31DA15BC600D4EF30 /* Barbecue Fridays.png */,
+				4DFC6EA41DA15BC600D4EF30 /* Impressions & Expressions.png */,
+				4DFC6EB71DA1602C00D4EF30 /* Grid-50.png */,
+				4DFC6EB91DA165A300D4EF30 /* list.png */,
+				4DFC6EA51DA15BC600D4EF30 /* Italian carnival.png */,
+				4DFC6EA61DA15BC600D4EF30 /* Metallica Concert.png */,
+				4DFC6EA71DA15BC600D4EF30 /* Rock n Roll.png */,
+				4DFC6EA81DA15BC600D4EF30 /* Saree Exhibition.png */,
+				4DFC6EA91DA15BC600D4EF30 /* Startups Meet.png */,
+				4DFC6EAA1DA15BC600D4EF30 /* Summer Noon Party.png */,
+				4DFC6EAB1DA15BC600D4EF30 /* Summer workshop.png */,
+				4DFC6EAC1DA15BC600D4EF30 /* Wine tasting event.png */,
+				4DFC6E621DA028A200D4EF30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DFC6EFF1DA4CF7000D4EF30 /* Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC6EF71DA4CEC600D4EF30 /* EventData+CoreDataProperties.h */,
+				4DFC6EF81DA4CEC600D4EF30 /* EventData+CoreDataProperties.m */,
+				4DFC6EF91DA4CEC600D4EF30 /* EventData.h */,
+				4DFC6EFA1DA4CEC600D4EF30 /* EventData.m */,
+			);
+			name = "Core Data Model";
+			sourceTree = "<group>";
+		};
+		4DFC6F001DA4CF8C00D4EF30 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC6E671DA028A200D4EF30 /* HomeViewController.h */,
+				4DFC6E681DA028A200D4EF30 /* HomeViewController.m */,
+				4DFC6E7B1DA0EFD800D4EF30 /* ListViewController.h */,
+				4DFC6E7C1DA0EFD800D4EF30 /* ListViewController.m */,
+				4DFC6EC11DA1FA9900D4EF30 /* TrackingViewController.h */,
+				4DFC6EC21DA1FA9900D4EF30 /* TrackingViewController.m */,
+				4DFC6EBB1DA16B5200D4EF30 /* DetailViewController.h */,
+				4DFC6EBC1DA16B5200D4EF30 /* DetailViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		4DFC6F011DA4CFB100D4EF30 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC6E641DA028A200D4EF30 /* AppDelegate.h */,
+				4DFC6E651DA028A200D4EF30 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		4DFC6F021DA4CFDE00D4EF30 /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC6EBE1DA182E500D4EF30 /* GridCollectionViewCell.h */,
+				4DFC6EBF1DA182E500D4EF30 /* GridCollectionViewCell.m */,
+				4DFC6E831DA0F9AD00D4EF30 /* ListTableViewCell.h */,
+				4DFC6E841DA0F9AD00D4EF30 /* ListTableViewCell.m */,
+			);
+			name = HelperClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DFC6E5D1DA028A200D4EF30 /* TrackMyEvent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFC6E781DA028A200D4EF30 /* Build configuration list for PBXNativeTarget "TrackMyEvent" */;
+			buildPhases = (
+				4DFC6E5A1DA028A200D4EF30 /* Sources */,
+				4DFC6E5B1DA028A200D4EF30 /* Frameworks */,
+				4DFC6E5C1DA028A200D4EF30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMyEvent;
+			productName = TrackMyEvent;
+			productReference = 4DFC6E5E1DA028A200D4EF30 /* TrackMyEvent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFC6E561DA028A200D4EF30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rajesh Maurya";
+				TargetAttributes = {
+					4DFC6E5D1DA028A200D4EF30 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4DFC6E591DA028A200D4EF30 /* Build configuration list for PBXProject "TrackMyEvent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DFC6E551DA028A200D4EF30;
+			productRefGroup = 4DFC6E5F1DA028A200D4EF30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFC6E5D1DA028A200D4EF30 /* TrackMyEvent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFC6E5C1DA028A200D4EF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFC6EAF1DA15BC600D4EF30 /* Italian carnival.png in Resources */,
+				4DFC6EB11DA15BC600D4EF30 /* Rock n Roll.png in Resources */,
+				4DFC6E741DA028A200D4EF30 /* LaunchScreen.storyboard in Resources */,
+				4DFC6EB81DA1602C00D4EF30 /* Grid-50.png in Resources */,
+				4DFC6EB31DA15BC600D4EF30 /* Startups Meet.png in Resources */,
+				4DFC6EB61DA15BC600D4EF30 /* Wine tasting event.png in Resources */,
+				4DFC6EB51DA15BC600D4EF30 /* Summer workshop.png in Resources */,
+				4DFC6EBA1DA165A300D4EF30 /* list.png in Resources */,
+				4DFC6EB01DA15BC600D4EF30 /* Metallica Concert.png in Resources */,
+				4DFC6E711DA028A200D4EF30 /* Assets.xcassets in Resources */,
+				4DFC6EAD1DA15BC600D4EF30 /* Barbecue Fridays.png in Resources */,
+				4DFC6EB21DA15BC600D4EF30 /* Saree Exhibition.png in Resources */,
+				4DFC6E821DA0F3BA00D4EF30 /* EventList.plist in Resources */,
+				4DFC6E6C1DA028A200D4EF30 /* Main.storyboard in Resources */,
+				4DFC6EAE1DA15BC600D4EF30 /* Impressions & Expressions.png in Resources */,
+				4DFC6EB41DA15BC600D4EF30 /* Summer Noon Party.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DFC6E5A1DA028A200D4EF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFC6EFB1DA4CEC600D4EF30 /* EventData+CoreDataProperties.m in Sources */,
+				4DFC6E801DA0F05A00D4EF30 /* Event.m in Sources */,
+				4DFC6E7D1DA0EFD800D4EF30 /* ListViewController.m in Sources */,
+				4DFC6EC01DA182E500D4EF30 /* GridCollectionViewCell.m in Sources */,
+				4DFC6E691DA028A200D4EF30 /* HomeViewController.m in Sources */,
+				4DFC6EFC1DA4CEC600D4EF30 /* EventData.m in Sources */,
+				4DFC6EBD1DA16B5200D4EF30 /* DetailViewController.m in Sources */,
+				4DFC6EC31DA1FA9900D4EF30 /* TrackingViewController.m in Sources */,
+				4DFC6E661DA028A200D4EF30 /* AppDelegate.m in Sources */,
+				4DFC6E851DA0F9AD00D4EF30 /* ListTableViewCell.m in Sources */,
+				4DFC6E6F1DA028A200D4EF30 /* TrackMyEvent.xcdatamodeld in Sources */,
+				4DFC6E631DA028A200D4EF30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DFC6E6A1DA028A200D4EF30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFC6E6B1DA028A200D4EF30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DFC6E721DA028A200D4EF30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFC6E731DA028A200D4EF30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DFC6E761DA028A200D4EF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4DFC6E771DA028A200D4EF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DFC6E791DA028A200D4EF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackMyEvent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rajesh.TrackMyEvent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DFC6E7A1DA028A200D4EF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackMyEvent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rajesh.TrackMyEvent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DFC6E591DA028A200D4EF30 /* Build configuration list for PBXProject "TrackMyEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFC6E761DA028A200D4EF30 /* Debug */,
+				4DFC6E771DA028A200D4EF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFC6E781DA028A200D4EF30 /* Build configuration list for PBXNativeTarget "TrackMyEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFC6E791DA028A200D4EF30 /* Debug */,
+				4DFC6E7A1DA028A200D4EF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DFC6E6D1DA028A200D4EF30 /* TrackMyEvent.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DFC6E6E1DA028A200D4EF30 /* TrackMyEvent.xcdatamodel */,
+			);
+			currentVersion = 4DFC6E6E1DA028A200D4EF30 /* TrackMyEvent.xcdatamodel */;
+			path = TrackMyEvent.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4DFC6E561DA028A200D4EF30 /* Project object */;
+}

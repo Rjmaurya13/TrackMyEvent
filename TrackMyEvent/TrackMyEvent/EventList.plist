@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Metallica Concert</string>
+		<key>place</key>
+		<string>Palace Grounds</string>
+		<key>image</key>
+		<string>Metallica Concert.png</string>
+		<key>entryType</key>
+		<string>Paid entry</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Saree Exhibition</string>
+		<key>place</key>
+		<string>Malleswaram Grounds</string>
+		<key>image</key>
+		<string>Saree Exhibition.png</string>
+		<key>entryType</key>
+		<string>free entry</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Wine tasting event</string>
+		<key>place</key>
+		<string>Links Brewery</string>
+		<key>image</key>
+		<string>Wine tasting event.png</string>
+		<key>entryType</key>
+		<string>paid entry</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Startups Meet</string>
+		<key>place</key>
+		<string>Kanteerava Indoor Stadium</string>
+		<key>image</key>
+		<string>Startups Meet.png</string>
+		<key>entryType</key>
+		<string>paid entry</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Summer Noon Party</string>
+		<key>place</key>
+		<string>Kumara Park</string>
+		<key>image</key>
+		<string>Summer Noon Party.png</string>
+		<key>entryType</key>
+		<string>paid entry</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Rock and Roll nights</string>
+		<key>place</key>
+		<string>Sarjapur Road</string>
+		<key>image</key>
+		<string>Rock n Roll.png</string>
+		<key>entryType</key>
+		<string>paid entry</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Barbecue Fridays</string>
+		<key>place</key>
+		<string>Whitefield</string>
+		<key>image</key>
+		<string>Barbecue Fridays.png</string>
+		<key>entryType</key>
+		<string>paid entry</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Summer workshop</string>
+		<key>place</key>
+		<string>Indiranagar</string>
+		<key>image</key>
+		<string>Summer workshop.png</string>
+		<key>entryType</key>
+		<string>free entry</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Impressions &amp; Expressions</string>
+		<key>place</key>
+		<string>MG Road</string>
+		<key>image</key>
+		<string>Impressions &amp; Expressions.png</string>
+		<key>entryType</key>
+		<string>free entry</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Italian carnival</string>
+		<key>place</key>
+		<string>Electronic City</string>
+		<key>image</key>
+		<string>Italian carnival.png</string>
+		<key>entryType</key>
+		<string>free entry</string>
+	</dict>
+</array>
+</plist>
